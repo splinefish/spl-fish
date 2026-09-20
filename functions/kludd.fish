@@ -23,7 +23,7 @@ function kludd
     else if test $argv[1] = "e"
       echo "test"
     else if test -e $file
-      mdless $file
+      leaf $file
     else
       echo "$file does not exist"
     end
